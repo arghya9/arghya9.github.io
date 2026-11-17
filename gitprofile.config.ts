@@ -38,30 +38,30 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Smart ESP32 Weather Intelligence System',
+          title: 'Amazon Brand Registry & SPS Operations Impact',
           description:
-            'Built a low-power IoT/solar monitoring system with multi-sensor fusion (DHT22, BMP280, LDR) and local forecast logic. Integrated dual APIs (WeatherAPI & OpenWeather), real-time Telegram bot alerts, and ThingSpeak cloud telemetry logging. Stack: ESP32, Arduino, REST APIs, IoT, Solar Electronics.',
-          imageUrl: './projects/esp32-weather.png',
+            'Led technical and operational resolution for Tier-1 brand portfolios across global Amazon marketplaces—diagnosing catalog defects, listing suppressions, bulk feed failures, contribution conflicts, and IP violations. Leveraged internal diagnostic tools for Root Cause Analysis (RCA), risk investigation, compliance enforcement, and seller financial data reconciliation within strict SLAs. Organizational Impact: spearheaded process improvements that cut case escalations and resolution turnaround by 50%, lifted seller retention by 25%, and safeguarded 100% brand integrity across cross-functional global teams.',
+          imageUrl: './projects/amazon-ops.png',
           link: 'https://www.linkedin.com/in/arghya-sarkar-8940b795',
         },
         {
           title: 'Raspberry Pi Zero-Trust Private Cloud',
           description:
-            'Architected self-hosted private cloud infrastructure using Nextcloud on Raspberry Pi with SSD storage. Configured zero-trust remote access via Tailscale VPN, automated encrypted MEGA backups via rclone, and Wi-Fi failover architecture. Stack: Raspberry Pi, Linux, Nextcloud, Tailscale, rclone.',
+            'Why it matters: commercial cloud storage subscriptions are getting steadily pricier while raising serious privacy, surveillance, and vendor lock-in concerns. Built a self-hosted private cloud on Raspberry Pi (Linux) with dedicated SSD storage and Nextcloud to reclaim full data ownership at zero recurring storage cost. Engineered zero-trust encrypted remote access via Tailscale VPN, automated off-site encrypted MEGA backups with rclone, and Wi-Fi failover architecture for continuous reliability. Stack: Raspberry Pi, Linux, Nextcloud, Tailscale, rclone.',
           imageUrl: './projects/rpi-cloud.png',
           link: 'https://www.linkedin.com/in/arghya-sarkar-8940b795',
         },
         {
-          title: 'Amazon Marketplace Ops & Risk Analytics',
+          title: 'Smart ESP32 Weather Intelligence System',
           description:
-            'Directed Tier-1 brand support across global marketplaces, resolving complex catalog defects, listing suppressions, contribution conflicts, and IP violations. Drove a 50% reduction in case escalations & resolution turnaround and a 25% improvement in seller retention using diagnostic risk & financial reconciliation tools.',
-          imageUrl: './projects/amazon-ops.png',
+            'Why it matters: accurate, hyper-local weather telemetry is essential for solar energy planning, smart automation, agriculture, and climate readiness where generic regional forecasts miss micro-climate shifts. Built a low-power, solar-powered IoT monitoring node combining multi-sensor fusion (DHT22 temperature/humidity, BMP280 barometric pressure, LDR irradiance) with on-device forecast logic, dual-API cross-validation (WeatherAPI & OpenWeather), instant Telegram bot alerts, and ThingSpeak cloud telemetry logging. Stack: ESP32, Arduino, REST APIs, IoT, Solar Electronics.',
+          imageUrl: './projects/esp32-weather.png',
           link: 'https://www.linkedin.com/in/arghya-sarkar-8940b795',
         },
         {
           title: 'STEM Instruction & Industry Technical Evaluation',
           description:
-            'Delivered advanced Physics, Chemistry, Mathematics, and English communication pedagogy across Unacademy (Relevel), Toppr, Filo, and Sensum Forum (2018–2021). Evaluated industry candidates through structured technical competency interviews.',
+            'Delivered advanced Physics, Chemistry, Mathematics, and English communication pedagogy across Unacademy (Relevel), Toppr, Filo, and Sensum Forum (2018–2021). Assessed industry candidates through structured technical competency evaluations and interviews.',
           imageUrl: './projects/stem-eval.png',
           link: 'https://www.linkedin.com/in/arghya-sarkar-8940b795',
         },
