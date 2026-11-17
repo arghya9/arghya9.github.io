@@ -164,11 +164,11 @@ const GitProfileContent = ({
       const data = response.data;
 
       setProfile({
-        avatar: data.avatar_url,
-        name: data.name || ' ',
-        bio: data.bio || '',
-        location: data.location || '',
-        company: data.company || '',
+        avatar: sanitizedConfig.github.avatarUrl || data.avatar_url,
+        name: sanitizedConfig.github.name || data.name || ' ',
+        bio: sanitizedConfig.github.bio || data.bio || '',
+        location: sanitizedConfig.github.location || data.location || '',
+        company: sanitizedConfig.github.company || data.company || '',
       });
 
       if (!sanitizedConfig.projects.github.display) {
@@ -183,6 +183,11 @@ const GitProfileContent = ({
     }
   }, [
     sanitizedConfig.github.username,
+    sanitizedConfig.github.avatarUrl,
+    sanitizedConfig.github.name,
+    sanitizedConfig.github.bio,
+    sanitizedConfig.github.location,
+    sanitizedConfig.github.company,
     sanitizedConfig.projects.github.display,
     getGithubProjects,
     handleError,

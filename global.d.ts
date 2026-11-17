@@ -3,6 +3,15 @@ interface Github {
    * GitHub org/user name
    */
   username: string;
+
+  /**
+   * Optional profile display overrides when GitHub profile fields are unset
+   */
+  name?: string;
+  bio?: string;
+  location?: string;
+  company?: string;
+  avatarUrl?: string;
 }
 
 interface GitHubProjects {

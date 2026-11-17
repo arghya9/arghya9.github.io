@@ -1,5 +1,10 @@
 export interface SanitizedGithub {
   username: string;
+  name?: string;
+  bio?: string;
+  location?: string;
+  company?: string;
+  avatarUrl?: string;
 }
 
 export interface SanitizedGitHubProjects {
