@@ -98,7 +98,7 @@ const CONFIG = {
     email: 'arghyasarkar007@gmail.com',
   },
   resume: {
-    fileUrl: './resumes/Arghya_Sarkar_Resume_Modern_Navy_WithPhoto.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: './resumes/Arghya_Sarkar_Final_Resume_WithPhoto.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Amazon Brand Registry',
@@ -119,6 +119,8 @@ const CONFIG = {
     'rclone',
     'API Integration',
     'Cloud Telemetry',
+    'AI Essentials (Canva 2026)',
+    'Media & Journalism (IPU)',
     'STEM Instruction',
     'Technical Evaluation',
   ],
@@ -129,6 +131,14 @@ const CONFIG = {
       from: 'June 2022',
       to: 'Present',
       companyLink: 'https://www.amazon.com',
+    },
+    {
+      company:
+        'Indian Press Union — IPU Media Association (North 24 Parganas, WB)',
+      position: 'District Reporter & Lifetime Media Member (ID: IPU2609092767)',
+      from: '2026',
+      to: 'Present',
+      companyLink: 'https://www.indianpressunion.com',
     },
     {
       company: 'IndiaMART InterMESH Limited (Kolkata, India)',
@@ -160,6 +170,18 @@ const CONFIG = {
     },
   ],
   certifications: [
+    {
+      name: 'AI Essentials 2026',
+      body: 'Canva Design School (Credential ID: 7ef477)',
+      year: 'September 27, 2026',
+      link: 'https://www.canva.com',
+    },
+    {
+      name: 'Lifetime Media Membership & District Reporter',
+      body: 'Indian Press Union (IPU Media Association) — ID: IPU2609092767',
+      year: '2026 – Present',
+      link: 'https://www.indianpressunion.com',
+    },
     {
       name: 'National Talent Search (NTSE) Scholar',
       body: 'National Achievement — NCERT',
