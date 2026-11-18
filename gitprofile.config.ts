@@ -98,7 +98,7 @@ const CONFIG = {
     email: 'arghyasarkar007@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: './resumes/Arghya_Sarkar_Resume_Modern_Navy_WithPhoto.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Amazon Brand Registry',
